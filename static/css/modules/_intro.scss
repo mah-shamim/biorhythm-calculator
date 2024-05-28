@@ -1,0 +1,73 @@
+/* introjs modern theme */
+.introjs {
+  &-helperNumberLayer {
+    font-family: $font-family-base;
+    font-size: 14px;
+    text-shadow: none;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    border: 2px solid #ecf0f1;
+    border-radius: 50%;
+    background: #e74c3c;
+  }
+  &-helperLayer {
+    background-color: #FFF;
+    background-color: rgba(255,255,255,.84);
+    border: none;
+    border-radius: 2px;
+  }
+  &-tooltip {
+    letter-spacing: .1em;
+    color: $c-base;
+    font-family: $font-family-base;
+    border-radius: 2px;
+    background-color: rgba(255,255,255,.84);
+  }
+  &-button {
+    padding: 1em;
+    text-shadow: none;
+    font-weight: bold;
+    color: $c-base;
+    font-family: $font-family-base;
+    background: #ecf0f1;
+    background-image: none;
+    -webkit-border-radius: .2em;
+    -moz-border-radius: .2em;
+    border-radius: .2em;
+    -webkit-transition: background .3s, border .3s;
+       -moz-transition: background .3s, border .3s;
+        -ms-transition: background .3s, border .3s;
+         -o-transition: background .3s, border .3s;
+            transition: background .3s, border .3s;
+  }
+  &-prevbutton {
+    border-radius: .2em 0 0 .2em;
+  }
+  &-nextbutton {
+    border-radius: 0 .2em .2em 0;
+  }
+  &-button:hover, &-button:focus {
+    background: $c-base;
+    color: #fff !important;
+    box-shadow: none;
+    border-color: $c-base;
+    text-decoration: none;
+    font-family: $font-family-base;
+  }
+  &-bullets {
+    ul {
+      li {
+        a {
+          background-color: rgba(0, 117, 154, 0.42);
+          &:hover {
+            background-color: rgba(0, 117, 154, 0.84);
+          }
+          &.active {
+            background-color: $c-base;
+          }
+        }
+      }
+    }
+  }
+}

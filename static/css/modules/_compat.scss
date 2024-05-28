@@ -1,0 +1,91 @@
+/* Compatibiliy */
+.compat {
+  background-color: #f4f5f9;
+}
+.rhythms {
+  width: 100%;
+}
+.rhythm {
+  margin: 10px 0 30px;
+  overflow: hidden;
+  font-weight: bold;
+  h1 {
+    float: left;
+    font-size: 1em;
+  }
+  .percent {
+    float: right;
+  }
+  .percentage {
+    height: 6px;
+    overflow: hidden;
+    clear: both;
+    background: #dfe2e9;
+  }
+} 
+
+.percentage-bar {
+  float: left;
+  height: 100%;
+  width: 100%;
+  background: #a3abbe;
+  -webkit-transition: width 0.6s ease;
+  -moz-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+}
+
+.physical .percentage-bar {
+  background: #ef7955;
+}
+
+.emotional .percentage-bar {
+  background: #4fc281;
+}
+
+.intellectual .percentage-bar {
+  background: #4b98dc;
+}
+
+.dates {
+  text-align: center;
+}
+
+.date {
+  display: inline-block;
+  padding: 5px 3px;
+  white-space: nowrap;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  &:hover {
+    background: #dfe2e9;
+  }
+  select {
+    padding: 4px;
+    margin: 0 2px;
+    width: 84px;
+    font-size: 14px;
+    box-shadow: 0 1px 1px 0 #a3abbe inset;
+    color: #505b67;
+    &:hover, &:focus {
+      color: #4b98dc;
+    }
+  }
+}
+
+.separator {
+  padding: 0 10px;
+  color: #4b98dc;
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 1;
+  position: relative;
+  top: 5px;
+}
+
+@media only screen and (max-width: 750px) {
+  .separator {
+    display: block;
+    top: 3px;
+  }
+}

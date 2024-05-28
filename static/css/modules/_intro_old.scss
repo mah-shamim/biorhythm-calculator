@@ -1,0 +1,59 @@
+/* introjs modern theme */
+.introjs {
+  &-tooltip {
+    background-color: rgba(000, 0, 0, 0.5);
+    color: #fff;
+  }
+  &-button {
+    font-size: 14px !important;
+  }
+  &-prevbutton.introjs-fullbutton {
+    border-radius: 50px !important;
+  }
+  &-button, &-button:hover, &-button:focus, &-button:active, &-disabled, &-disabled:focus, &-disabled:hover {
+    outline: none;
+    background-image: none;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    box-shadow: none;
+    border-shadow: none;
+    text-shadow: none;
+    font-family: $font-family-base;
+  }
+  &-button:hover, &-button:focus, &-button:active {
+    border: 1px solid #fff
+  }
+  &-disabled, &-disabled:focus, &-disabled:hover {
+    color: #ccc;
+    border: 1px solid transparent;
+  }
+  &-arrow {
+    border: 10px solid #fff;
+    &.top, &.top-middle, &.top-right {
+      border-color: transparent transparent rgba(000, 0, 0, 0.5);
+      top: -20px;
+      left: 20px;
+    }
+    &.bottom, &.bottom-middle, &.bottom-right {
+      border-color: rgba(000, 0, 0, 0.5) transparent transparent;
+      bottom: -20px;
+      left: 20px;
+    }
+    &.left, &.right {
+      top: 20px;
+    }
+    &.left-bottom, &.right-bottom {
+      bottom: 20px;
+    }
+    &.left, &.left-bottom {
+      left: -20px;
+      border-color: transparent rgba(000, 0, 0, 0.5) transparent transparent;
+    }
+    &.right, &.right-bottom {
+      right: -20px;
+      border-color: transparent transparent transparent rgba(000, 0, 0, 0.5);
+    }
+  }
+}

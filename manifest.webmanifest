@@ -1,0 +1,35 @@
+{
+"short_name": "Biorhythm",
+"name": "Biorhythm Calculator",
+"theme_color": "rgba(0,117,154,0.84)",
+"background_color": "#97a4ad",
+"display": "fullscreen",
+"icons": [
+    {
+    "src": "static/img/app-icons/icon-48.png",
+    "type": "image/png",
+    "sizes": "48x48"
+    },
+    {
+    "src": "static/img/app-icons/icon-96.png",
+    "type": "image/png",
+    "sizes": "96x96"
+    },
+    {
+    "src": "static/img/app-icons/icon-144.png",
+    "type": "image/png",
+    "sizes": "144x144"
+    },
+    {
+    "src": "static/img/app-icons/icon-192.png",
+    "type": "image/png",
+    "sizes": "192x192"
+    },
+    {
+    "src": "static/img/app-icons/icon-512.png",
+    "type": "image/png",
+    "sizes": "512x512"
+    }
+],
+"start_url": "/?utm_source=homescreen"
+}
